@@ -28,12 +28,13 @@ body {
 #top-section {
   display: flex;
   flex-direction: column;
-  margin: 80px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 
 .description {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
@@ -46,10 +47,9 @@ body {
 }
 
 .description-subtitle {
-  text-align: justify;
-  text-align-last: center;
-  font-size: 1.2rem;
-  padding: 10px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 10px 5px;
   margin: 0 auto;
   color: hsl(300, 43%, 22%);
 }
@@ -57,7 +57,44 @@ body {
 .rates {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 10px;
+}
+
+.rates-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 65px;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.rates-guru {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.rates-besttech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 63px;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  font-size: 0.9rem;
 }
 
 .attribution {
