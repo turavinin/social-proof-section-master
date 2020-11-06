@@ -268,6 +268,7 @@ body {
   margin: 20px 0 0 0;
   padding: 20px 0;
   bottom: 0;
+  width: 100vw;
 }
 
 .attribution {
@@ -278,4 +279,45 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
   font-weight: 500;
+}
+
+/* DESKTOP STYLES */
+
+@media only screen and (min-width: 960px) {
+  body {
+    align-items: center;
+  }
+
+  #wrapper {
+    width: 1440px;
+  }
+
+  #top-section {
+    flex-direction: row;
+  }
+
+  .description {
+    flex: 1;
+    align-items: flex-start;
+    padding: 0 10px;
+    margin: 100px 0 0 100px;
+  }
+
+  .description-title {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+  }
+
+  .description-subtitle {
+    text-align: left;
+    padding: 20px 0 0 0;
+    margin: 0;
+    width: 400px;
+  }
+
+  .rates {
+    flex: 3;
+  }
 }
