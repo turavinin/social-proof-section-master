@@ -90,7 +90,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 13px 63px;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   line-height: 25px;
   background-color: hsl(300, 24%, 96%);
   border-radius: 5px;
@@ -104,6 +104,154 @@ body {
 .rates-text {
   color: hsl(300, 43%, 22%);
   font-weight: 700;
+}
+
+#bottom-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* COLTON REVIEW */
+
+.colton-review {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: hsl(300, 43%, 22%);
+
+  border-radius: 5px;
+}
+
+.colton-review-title {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 20px 20px 10px 30px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 30px;
+  height: auto;
+}
+
+.colton-review-title-name {
+  margin: 0 20px;
+  line-height: 1.3;
+}
+
+.colton-review-title-name > h2 {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.colton-review-title-name > h3 {
+  font-size: 0.9rem;
+  color: hsl(333, 80%, 67%);
+  font-weight: 300;
+}
+
+.colton-review-testimony {
+  display: flex;
+  padding: 0 30px 30px 30px;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+/* IRENE REVIEW */
+
+.irene-review {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: hsl(300, 43%, 22%);
+
+  border-radius: 5px;
+}
+
+.irene-review-title {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 20px 20px 10px 30px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 30px;
+  height: auto;
+}
+
+.irene-review-title-name {
+  margin: 0 20px;
+  line-height: 1.3;
+}
+
+.irene-review-title-name > h2 {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.irene-review-title-name > h3 {
+  font-size: 0.9rem;
+  color: hsl(333, 80%, 67%);
+  font-weight: 300;
+}
+
+.irene-review-testimony {
+  display: flex;
+  padding: 0 30px 30px 30px;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+/* ANNE REVIEW */
+.anne-review {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: hsl(300, 43%, 22%);
+
+  border-radius: 5px;
+}
+
+.anne-review-title {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 20px 20px 10px 30px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 30px;
+  height: auto;
+}
+
+.anne-review-title-name {
+  margin: 0 20px;
+  line-height: 1.3;
+}
+
+.anne-review-title-name > h2 {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.anne-review-title-name > h3 {
+  font-size: 0.9rem;
+  color: hsl(333, 80%, 67%);
+  font-weight: 300;
+}
+
+.anne-review-testimony {
+  display: flex;
+  padding: 0 30px 30px 30px;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: #ffffff;
 }
 
 .attribution {
