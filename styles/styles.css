@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px 20px 0px 20px;
+  align-items: center;
 }
 
 #top-section {
@@ -277,7 +278,7 @@ body {
   font-weight: 500;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 36%, 22%);
   font-weight: 500;
 }
 
@@ -286,6 +287,10 @@ body {
 @media only screen and (min-width: 960px) {
   body {
     align-items: center;
+    background-image: url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
   }
 
   #wrapper {
@@ -307,18 +312,110 @@ body {
     text-align: left;
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 400px;
+    font-size: 2.5rem;
   }
 
   .description-subtitle {
     text-align: left;
     padding: 20px 0 0 0;
     margin: 0;
-    width: 400px;
+    width: 450px;
     line-height: 1.5;
   }
 
   .rates {
     flex: 3;
+    margin-top: 110px;
+    margin-right: 100px;
   }
+
+  .rates-review {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 15px 50px;
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+
+  .rates-stars {
+    margin: 0 10px 0 0;
+  }
+
+  .rates-text {
+    margin: 0 0 0 10px;
+    padding-right: 50px;
+  }
+
+  .rates-guru {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    line-height: 1.5;
+    padding: 15px 35px;
+    margin-left: 150px;
+  }
+
+  .rates-stars {
+    margin: 0 10px 0 0;
+  }
+
+  .rates-text {
+    margin: 0 0 0 10px;
+    padding-right: 50px;
+  }
+
+  .rates-besttech {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 15px 50px;
+    line-height: 1.5;
+    margin-left: 200px;
+  }
+
+  .rates-stars {
+    margin: 0 10px 0 0;
+  }
+
+  .rates-text {
+    margin: 0 0 0 10px;
+    padding-right: 50px;
+  }
+
+  #bottom-section {
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+  }
+
+  .colton-review {
+    width: 350px;
+    height: 230px;
+    justify-content: center;
+    margin-right: 30px;
+  }
+
+  .irene-review {
+    width: 350px;
+    margin-top: 30px;
+    height: 230px;
+    justify-content: center;
+    margin-right: 30px;
+  }
+
+  .anne-review {
+    width: 350px;
+    margin-top: 60px;
+    height: 230px;
+    justify-content: center;
+  }
+
+  #footer {
+    margin-top: 50px;
 }
